@@ -1,0 +1,43 @@
+{
+    "name": "BBB-Tools",
+    "version": "1.0",
+    "description": "Multiple (inofficial) tools for BigBlueButton",
+    "author": "Philipp Stappert",
+    "homepage_url": "https://www.philipprogramm.de/",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "permissions": [
+        "tabs",
+        "declarativeContent",
+        "activeTab",
+        "storage",
+        "<all_urls>"
+    ],
+    "content_scripts":[
+        {
+            "matches":["https://*/html5client/join?*"],
+            "js":["getWhiteboardUrl.js"],
+            "css":[]
+        }
+    ],
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/bbbtools16.png",
+            "32": "images/bbbtools32.png",
+            "48": "images/bbbtools48.png",
+            "128": "images/bbbtools128.png"
+        }
+    },
+    "icons": {
+        "16": "images/bbbtools16.png",
+        "32": "images/bbbtools32.png",
+        "48": "images/bbbtools48.png",
+        "128": "images/bbbtools128.png"
+    },
+    "manifest_version": 2
+}
