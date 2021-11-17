@@ -8,7 +8,7 @@ At the moment, following features are supported:
 
 More features are planned!
 
-GitHub: https://github.com/philipprogramm/bbb-tools-chrome
-Support via mail: bbb-tools@support.philipprogramm.de
+GitHub: https://github.com/philippstappert/bbb-tools-chrome
+Support via mail: mail@phsta.de
 
-https://www.philipprogramm.de/
+https://www.phsta.de/
